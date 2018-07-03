@@ -5,9 +5,19 @@ namespace StoreOfBuild.Domain.Products
         public int Id { get; private set; }
         public string Name { private get; set; }
 
-        public Category(int id, string name)
+        public Category(string name)
         {
-            Id = id;
+            ValidateNameAndSetName(name);
+        }
+
+        public void Update(string name)
+        {
+            ValidateNameAndSetName(name);
+        }
+
+        private void ValidateNameAndSetName(string name)
+        {
+            DomainException.When(string.IsNullOrEmpty(name), "Name is required");
             Name = name;
         }
     }
