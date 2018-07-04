@@ -37,8 +37,6 @@ namespace StroreOfBuild.Domain.Products
             DomainException.When(category == null, "Category is required");
             DomainException.When(price < 0, "Price is required");
             DomainException.When(stockQuantity < 0, "Stock quantity is required");
-        }
-
-        
+        }        
     }
 }
