@@ -1,4 +1,4 @@
-//Fica na camada de aplicação
+//Fica na camada de Vizualização
 using StoreOfBuild.Domain.Products;
 
 namespace StroreOfBuild.Domain.Dtos
