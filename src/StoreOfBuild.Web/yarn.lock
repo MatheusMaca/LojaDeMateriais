@@ -1826,7 +1826,7 @@ jquery-validation-unobtrusive@^3.2.10:
     jquery ">=1.8"
     jquery-validation ">=1.16"
 
-jquery-validation@>=1.16, jquery-validation@^1.17.0:
+jquery-validation@>=1.16:
   version "1.17.0"
   resolved "https://registry.yarnpkg.com/jquery-validation/-/jquery-validation-1.17.0.tgz#ab66b6b583d7740b9bbd148993e50e8ac041f35b"
   dependencies:
