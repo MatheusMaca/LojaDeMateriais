@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "t:\\repositorio\\2018\\DotNetCoreMvc\\Core\\src\\StroreOfBuild.Domain\\StroreOfBuild.Domain.csproj",
+      "projectUniqueName": "T:\\repositorio\\2018\\DotNetCoreMvc\\Core\\src\\StroreOfBuild.Domain\\StroreOfBuild.Domain.csproj",
       "projectName": "StroreOfBuild.Domain",
-      "projectPath": "t:\\repositorio\\2018\\DotNetCoreMvc\\Core\\src\\StroreOfBuild.Domain\\StroreOfBuild.Domain.csproj",
+      "projectPath": "T:\\repositorio\\2018\\DotNetCoreMvc\\Core\\src\\StroreOfBuild.Domain\\StroreOfBuild.Domain.csproj",
       "packagesPath": "T:\\Users\\Macarini\\.nuget\\packages\\",
-      "outputPath": "t:\\repositorio\\2018\\DotNetCoreMvc\\Core\\src\\StroreOfBuild.Domain\\obj\\",
+      "outputPath": "T:\\repositorio\\2018\\DotNetCoreMvc\\Core\\src\\StroreOfBuild.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
