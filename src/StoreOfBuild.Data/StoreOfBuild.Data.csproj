@@ -1,17 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+</PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\StroreOfBuild.Domain\StroreOfBuild.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.1" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.1.1" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.1" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.1" />
-  </ItemGroup>
-
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-  </PropertyGroup>
+    
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.1" />    
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.1.1" PrivateAssets="All" />    
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.1" />    
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.1" />    
+  </ItemGroup>  
 </Project>
