@@ -12,6 +12,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\StoreOfBuild.DI\StoreOfBuild.DI.csproj" />
-    <ProjectReference Include="..\StoreOfBuild.Domain\StoreOfBuild.Domain.csproj" />
+    <ProjectReference Include="..\StoreOfBuild.Data\StoreOfBuild.Data.csproj" />    
   </ItemGroup>
 </Project>
